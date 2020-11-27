@@ -59,9 +59,9 @@ export default Application;
 
 This component uses [ViaCEP](https://viacep.com.br) under the hood to search the address
 
-Subscribe to onsearch to get the API response and a suggestion of which input should be focused next
+Subscribe to onsearch to get the API response and a suggestion of which input should be focused on next
 
-The focus suggestion will be "neighborhood" or "addressNumber" according to which information is missing
+The focus suggestion will be either "address" or "addressNumber" according to which information is missing
 
 ```jsx
 import Nullstack from 'nullstack';

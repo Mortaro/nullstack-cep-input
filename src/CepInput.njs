@@ -15,7 +15,7 @@ class CepInput extends Nullstack {
         address: data.logradouro,
         state: data.uf
       }
-      const focusSuggestion = place.address ? 'addressNumber' : 'neighborhood';
+      const focusSuggestion = place.address ? 'addressNumber' : 'address';
       onsearch({place, focusSuggestion});
     }
   }

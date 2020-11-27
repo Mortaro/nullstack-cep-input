@@ -1,0 +1,15 @@
+{
+  "name": "nullstack-cep-input",
+  "version": "1.0.0",
+  "description": "CEP Input for Nullstack",
+  "main": "src/CepInput.njs",
+  "author": "Mortaro",
+  "license": "MIT",
+  "repository": "github:Mortaro/nullstack-cep-input",
+  "devDependencies": {
+    "nullstack": "*"
+  },
+  "peerDependencies": {
+    "nullstack": "*"
+  }
+}
